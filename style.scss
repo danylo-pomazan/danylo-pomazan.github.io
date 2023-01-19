@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.footer {
+  max-width: 100%;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4efea;
+
+  &__copyright {
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #39425d;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  &__social-netvorks {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+  &__social-netvorks-icon {
+    height: 50px;
+    width: 50px;
+    margin-top: calc(50% - 25px);
+  }
+  &__social-netvorks-list {
+    list-style: none;
+  }
+  &__social-netvorks-list-item {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+.get-in-touch {
+  max-width: 100%;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4efea;
+  border-bottom: 2px inset #a89d92;
+  &__form {
+  }
+  &__input-email {
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+    margin-left: calc(50% - 200px);
+    margin-bottom: 20px;
+    background-color: #f4efea;
+    border-bottom: 1px solid #a89d92;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  &__input-email::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425d;
+  }
+  &__input-email:focus::placeholder {
+    color: transparent;
+  }
+  &__input-message {
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    margin-left: calc(50% - 200px);
+    margin-bottom: 20px;
+    resize: none;
+    background-color: #f4efea;
+    border-bottom: 1px solid #a89d92;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  &__input-message::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425d;
+  }
+  &__input-message:focus::placeholder {
+    color: transparent;
+  }
+  &__input-name {
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+    margin-left: calc(50% - 200px);
+    margin-bottom: 20px;
+    background-color: #f4efea;
+    border-bottom: 1px solid #a89d92;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  &__input-name::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425d;
+  }
+  &__input-name:focus::placeholder {
+    color: transparent;
+  }
+  &__submit {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-left: calc(50% - 100px);
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425d;
+    border: 1px solid #a89d92;
+    background-color: #f4efea;
+    transition: transform 1s, background-color 0.25s;
+  }
+  &__submit:hover {
+    transform: scale(1.1);
+  }
+  &__submit:active {
+    background-color: #a89d92;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    display: inline-block;
+    width: 680px;
+    height: 60px;
+    margin-left: calc(50% - 340px);
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+    line-height: 1.02;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    text-shadow: 2px 2px #a89d92;
+    text-align: center;
+  }
+  &__title {
+    display: inline-block;
+    width: 680px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: calc(50% - 340px);
+    font-family: "League Spartan", sans-serif;
+    font-size: 60px;
+    line-height: 1.02;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    text-shadow: 2px 2px #a89d92;
+    text-align: center;
+  }
+}
+.header {
+  max-width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4efea;
+  border-bottom: 2px inset #a89d92;
+  &__background-img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  &__button {
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    border: 2px outset #f1a501;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    background-color: #f1a501;
+    position: relative;
+    top: 0px;
+    left: -1050px;
+  }
+  &__button:active {
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    border: 2px inset #f1a501;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    background-color: #f1a501;
+  }
+  &__button-link {
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 12px;
+  }
+  &__greating {
+    display: inline-block;
+    width: 780px;
+    height: 160px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 80px;
+    line-height: 1.02;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    top: -400px;
+    left: 80px;
+    text-shadow: 2px 2px #a89d92;
+  }
+  &__img-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 330px;
+    border: 2px solid #ffffff;
+    position: relative;
+    top: 200px;
+    left: 780px;
+  }
+  &__title {
+    display: inline-block;
+    width: 380px;
+    height: 160px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 80px;
+    line-height: 1.02;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    top: -80px;
+    left: -700px;
+    text-shadow: 2px 2px #a89d92;
+  }
+}
+.nav {
+  display: inline-block;
+  max-width: 60%;
+  height: 60px;
+  margin-left: 550px;
+  margin-right: auto;
+  background-color: #f4efea;
+  &__link {
+    display: inline-block;
+    height: 25px;
+    width: 150px;
+    padding-top: 8px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #39425d;
+    background-color: #f4efea;
+    border-bottom: 1px solid #a89d92;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: transform 1s, background-color 0.5s;
+  }
+  &__link:hover {
+    transform: scale(1.1);
+    border: 1px solid #a89d92;
+    border-radius: 5px;
+  }
+  &__link:active {
+    background-color: #a89d92;
+    color: #ffffff;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__list-item {
+    display: inline-block;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+.resume {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4efea;
+  border-bottom: 2px inset #a89d92;
+
+  &__education-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-end;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+  }
+  &__education-ball {
+    height: 20px;
+    width: 21px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #47423d;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  &__education-ball::after {
+    content: "";
+    display: inline-block;
+    height: 580px;
+    width: 1px;
+    border-left: 1px solid #000000;
+    position: relative;
+    top: 20px;
+    left: 0.5px;
+  }
+  &__education-items {
+    width: calc((100% - 40px) / 2);
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  &__education-place {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #1a1b1f;
+  }
+  &__education-speciality {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #1a1b1f;
+  }
+  &__education-term {
+    margin-top: 0px;
+    margin-bottom: 55px;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: #1a1b1f;
+  }
+  &__education-title {
+    width: calc((100% - 40px) / 2);
+    text-align: end;
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+
+  &__experience-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-end;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+  }
+  &__experience-ball {
+    height: 20px;
+    width: 21px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #d86f6c;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  &__experience-ball::after {
+    content: "";
+    display: inline-block;
+    height: 580px;
+    width: 1px;
+    border-left: 1px solid #000000;
+    position: relative;
+    top: 20px;
+    left: 0.5px;
+  }
+  &__experience-items {
+    width: calc((100% - 40px) / 2);
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  &__experience-place {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #1a1b1f;
+  }
+  &__experience-position {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #1a1b1f;
+  }
+  &__experience-term {
+    margin-top: 0px;
+    margin-bottom: 55px;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: #1a1b1f;
+  }
+  &__experience-title {
+    width: calc((100% - 40px) / 2);
+    text-align: end;
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+
+  &__item {
+    margin-top: 0px;
+    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #1a1b1f;
+  }
+
+  &__skills-ball {
+    height: 20px;
+    width: 21px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #d78c27;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  &__skills-ball::after {
+    content: "";
+    display: inline-block;
+    height: 580px;
+    width: 1px;
+    border-left: 1px solid #000000;
+    position: relative;
+    top: 20px;
+    left: 0.5px;
+  }
+
+  &__skills-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-end;
+    width: 100%;
+    height: calc(100vh - 150px);
+  }
+  &__skills-items {
+    width: calc((100% - 40px) / 2);
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  &__skills-title {
+    width: calc((100% - 40px) / 2);
+    text-align: end;
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+  &__software-knowledge-ball {
+    height: 20px;
+    width: 21px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #5d8074;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  &__software-knowledge-ball::after {
+    content: "";
+    display: inline-block;
+    height: 580px;
+    width: 1px;
+    border-left: 1px solid #000000;
+    position: relative;
+    top: 20px;
+    left: 0.5px;
+  }
+  &__software-knowledge-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-end;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+  }
+  &__software-knowledge-items {
+    width: calc((100% - 40px) / 2);
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  &__software-knowledge-title {
+    width: calc((100% - 40px) / 2);
+    text-align: end;
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+  &__title {
+    display: block;
+    height: 90px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    color: #d78c27;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: none;
+  }
+}
+
+.top-nav {
+  &__item {
+  }
+  &__list {
+  }
+  &__ref {
+  }
+}
+
+.to-top {
+  &__button {
+    height: 50px;
+    width: 50px;
+    background-color: #8090c2;
+    position: fixed;
+    top: 90vh;
+    left: 95vw;
+    opacity: 0.4;
+    text-align: center;
+  }
+  &__icon {
+    height: 30px;
+    width: 50px;
+    display: inline-block;
+  }
+  &__text {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+  &__link {
+    text-decoration: none;
+  }
+}
