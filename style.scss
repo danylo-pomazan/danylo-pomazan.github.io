@@ -646,3 +646,23 @@
     text-decoration: none;
   }
 }
+@media (min-width: 1900px) {
+  .header {
+    &__img-box {
+      left: 1380px;
+    }
+    &__button {
+      left: -950px;
+    }
+    &__greating {
+      left: 180px;
+    }
+
+    &__title {
+      left: -600px;
+    }
+  }
+  .nav {
+    margin-left: 850px;
+  }
+}
