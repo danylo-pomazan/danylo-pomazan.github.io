@@ -322,7 +322,7 @@
   border-bottom: 2px inset #a89d92;
 }
 .header__background-img {
-  width: 500px;
+  width: 350px;
   height: auto;
   position: relative;
   top: 20px;
@@ -338,7 +338,7 @@
   text-align: center;
   background-color: #f1a501;
   position: relative;
-  top: 0px;
+  top: -140px;
   left: -1050px;
 }
 .header__button:active {
@@ -371,7 +371,7 @@
   text-align: left;
   color: #ffffff;
   position: relative;
-  top: -400px;
+  top: -540px;
   left: 80px;
   text-shadow: 2px 2px #a89d92;
 }
@@ -389,12 +389,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 500px;
-  height: 330px;
+  width: 360px;
+  height: 470px;
   border: 2px solid #ffffff;
   position: relative;
-  top: 200px;
-  left: 780px;
+  top: 120px;
+  left: 880px;
 }
 .header__title {
   display: inline-block;
@@ -407,7 +407,7 @@
   text-align: left;
   color: #ffffff;
   position: relative;
-  top: -80px;
+  top: -240px;
   left: -700px;
   text-shadow: 2px 2px #a89d92;
 }
@@ -431,6 +431,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 17px;
+  letter-spacing: 2px;
   color: #39425d;
   background-color: #f4efea;
   border-bottom: 1px solid #a89d92;
@@ -713,7 +714,7 @@
   padding-top: 20px;
   padding-right: 50px;
 }
-.resume__software-knowledge-ball {
+.resume__strenghts-ball {
   height: 20px;
   width: 21px;
   border-radius: 20px;
@@ -723,7 +724,7 @@
   margin-left: 2px;
   margin-right: 2px;
 }
-.resume__software-knowledge-ball::after {
+.resume__strenghts-ball::after {
   content: "";
   display: inline-block;
   height: 580px;
@@ -733,7 +734,7 @@
   top: 20px;
   left: 0.5px;
 }
-.resume__software-knowledge-box {
+.resume__strenghts-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -750,13 +751,24 @@
   height: calc(100vh - 80px);
   padding-top: 80px;
 }
-.resume__software-knowledge-items {
+.resume__strenghts-items {
   width: calc((100% - 40px) / 2);
   text-align: start;
   padding-top: 20px;
   padding-left: 50px;
 }
-.resume__software-knowledge-title {
+.resume__strenghts-text {
+  margin-top: -30px;
+  margin-bottom: 55px;
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #1a1b1f;
+}
+.resume__strenghts-title {
   width: calc((100% - 40px) / 2);
   text-align: end;
   font-size: 26px;
